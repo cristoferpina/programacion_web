@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #516de9;
+  color: white;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.navbar nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  background: #beeee5;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+.hero h1 {
+  font-size: 32px;
+}
+.hero p {
+  color: gray;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+.cards .card {
+  background: white;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+.cards .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.cards .card h3 {
+  padding: 15px;
+}
+.cards .card p {
+  padding: 0 15px 20px;
+  color: #555;
+}
+
+/*# sourceMappingURL=syles.css.map */

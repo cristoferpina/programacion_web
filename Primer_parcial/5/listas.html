@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            ul, ol {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+                position: fixed;
+                width: 100%;
+            }
+
+            ul li, ol li {
+                float: left;
+            }
+
+            ul li a, ol li a {
+                display: block;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+            ul li a:hover, ol li a:hover {
+                border-bottom: 3px solid blue;
+                background-color: #1111;
+            }
+            /* Si quieres que los <li> de la lista ordenada también sean clickeables, pon los elementos dentro de <a> */
+    </style>
+</head>
+
+<body>
+    <!-- <h2>Unorder list</h2>
+    <ul>
+        <li>azul</li>
+        <li>verde</li>
+        <li>
+            <ul>
+                <li>Rojo 50%</li>
+                <li>Rojo 100%</li>
+                <ul><li>Rojo</li></ul>
+            </ul>
+        </li>
+    </ul> -->
+
+    <h2>Menu de navegacion</h2>
+    <ul>
+        <li> <a href="#"> Inicio </a></li>
+        <li> <a href="#"> Blog </a></li>
+        <li> <a href="#"> Acerca de</a></li>
+        <li> <a href="#"> contacto </a></li>
+    </ul>
+
+    <br><br>
+    <h2>Order list</h2>
+        <ol >
+            <li><a href="#">Cosa 1</a></li>
+            <li><a href="#">Cosa 2</a></li>
+            <li><a href="#">Cosa 3</a></li>
+        </ol>
+    
+    </body>
+
+</html>

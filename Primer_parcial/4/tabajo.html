@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            width: 80%;
+        }
+
+        th,
+        td {
+            border: 1px solid #111;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Encabezados siempre tienen este fondo */
+        thead th {
+            background-color: aquamarine;
+        }
+
+        /* Solo filas de datos */
+        tbody tr:nth-child(even) {
+            background-color: #e0f7f7;
+        }
+
+        tbody tr:hover {
+            background-color: #111;
+            color: #fff;
+        }
+
+        tbody td:hover {
+            background-color: #941717;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nombre</th>
+                <th>Semestre</th>
+                <th>Domicilio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Denisse</td>
+                <td>3</td>
+                <td>Providencia</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Luis</td>
+                <td>3</td>
+                <td>Fábrica Concepción</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ana</td>
+                <td>3</td>
+                <td>La Millas</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Norma</td>
+                <td>3</td>
+                <td>El Pintal</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

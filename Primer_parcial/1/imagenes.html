@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos básicos de html</title>
+    <!-- ARCHIVOS CSS -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(/png.png);
+            background-size: 200px;
+            background-position: right top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            color: #173c33;
+        }
+    </style>
+    <!-- ARCHIVOS JS -->
+    <link rel="icon" href="gato.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1 style="background-color:rgba(0, 0, 0, 0.5); color: #fff; text-align: center;">Titulo principal de la pagina web
+    </h1>
+
+    <!-- 
+        _SELF: ABRE EL DOCUMENTO EN LA MISMA PESTAÑA (ESTA POR DEFECTO)
+        _BLANK: ABRE EL DOCUMENTO EN UNA PESTAÑA NUEVA
+        _PARENT: ABRE EL DOCUMENTO EN EL MARCO PADRE
+        _TOP: ABRE EL DOCUMENTO EN TODA LA VENTANA (CANCELA TODOS LOS FRAMES)
+    -->
+
+    <a href="index.html" target="_top">link</a>
+
+    <h2>URLs absolutas</h2>
+    <a href="https://www.w3.org">w3</a>
+    <a href="https://www.google.com">Google</a>
+
+    <h2>urls relativa</h2>
+    <a href="1.jpg">w3</a>
+    <a href="2">Google</a>
+
+    <!--MAPEO DE IMAGENES CON COORDENADAS-->
+
+    <img src="2.png" alt="Pasillo" usemap="#pasilloMap">
+
+    <map name="pasilloMap">
+        <area target="" alt="" title="" href="" coords="152,84,251,184" shape="rect">
+        <area target="" alt="" title="" href="" coords="303,85,397,181" shape="rect">
+        <area target="" alt="" title="" href="" coords="486,264,49" shape="circle">
+        <area target="" alt="" title="" href="" coords="351,266,53" shape="circle">
+    </map>
+
+
+</html>

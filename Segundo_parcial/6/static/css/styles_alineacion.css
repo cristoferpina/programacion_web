@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: "Monserrat";
+    background-color: #e88533;
+}
+
+.p_left{
+    text-align: left;
+}
+
+.p_right{
+    text-align: right;
+}
+
+.p_center{
+    text-align: center;
+}
+
+.p_justify{
+    text-align: justify;
+}
+
+.p_start{
+    text-align: start;
+}
+.p_end{
+    text-align: end;
+}
+
+button{
+    background-color: rgb(33, 108, 198);
+    border-radius: 40px;
+    position: absolute;
+    bottom: unset;
+    left: 1250px;
+}

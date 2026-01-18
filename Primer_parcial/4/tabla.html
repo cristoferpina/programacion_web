@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td{
+            /*border:1px solid #111;*/
+            border-collapse: nocollapse;
+            border-collapse: collapse;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        th,td{
+        background-color: #96d4d4;
+        }
+
+
+        tr:hover{
+        
+        /* Aplicar hover solo a las filas del cuerpo de la tabla (tbody) */
+        tbody tr:hover{
+            background-color: #111;
+            color: #fff;
+        }
+
+        td:hover{
+            background-color: #941717;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Tabla en html-->
+    <table style="border: 50%;" border = "10px">
+        <tr>
+            <th colspan="2">No.</th>
+            <th>Edad</th>
+
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Cruz</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Cristofer</td>
+            <td>Piña</td>
+            <td>21</main></td>
+        </tr>
+        <thead>
+            <tr>
+                <th colspan="2">No.</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Cruz</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Cristofer</td>
+                <td>Piña</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    <!--Tabla en html-->
+
+
+    </table>
+</body>
+</html>

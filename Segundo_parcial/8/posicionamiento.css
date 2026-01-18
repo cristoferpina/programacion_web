@@ -1,0 +1,60 @@
+.padre{
+    align-items: center;
+}
+
+.cuadrado-grande{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #8ace00;
+}
+
+.cuadrado-pequeno{
+    position: absolute;
+    height: 114px;
+    width: 114px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ce6e00;
+}
+
+.circulo_1{
+    position: absolute;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    top: 435px;
+    left: 140px;
+    background-color: #ce0018;
+}
+.circulo_2{
+    position: absolute;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    top: 435px;
+    left: 330px;
+    background-color: #0094ce;
+}
+.circulo_3{
+    position: absolute;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    top: 245px;
+    left: 140px;
+    background-color: #ce00b9;
+}
+.circulo_4{
+    position: absolute;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    top: 245px;
+    left: 330px;
+    background-color: #ceac00;
+}

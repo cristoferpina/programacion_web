@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: "Monserrat";
+    background-color: #b7599b;
+}
+
+.text_none{
+    text-decoration: none;
+}
+
+.text_none{
+    text-decoration: none;
+}
+
+.text_underline{
+    text-decoration: underline;
+}
+
+.text_overline{
+    text-decoration: overline;
+}
+
+.text_line-through{
+    text-decoration:line-through;
+}
+.button_alineacion{
+    background-color: rgb(19, 89, 173);
+    border-radius: 40px;
+    position: absolute;
+    bottom: unset;
+}
+
+.button_transformacion{
+    background-color: rgb(19, 89, 173);
+    border-radius: 40px;
+    position: absolute;
+    bottom: unset;
+    left: 1250px;
+}

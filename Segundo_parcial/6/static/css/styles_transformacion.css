@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: "Monserrat";
+    background-color: #2e643c;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.button_decoracion{
+    background-color: rgb(19, 89, 173);
+    border-radius: 40px;
+    position: absolute;
+    bottom: unset;
+}
+
+.button_espaciado{
+    background-color: rgb(19, 89, 173);
+    border-radius: 40px;
+    position: absolute;
+    bottom: unset;
+    left: 1250px;
+}

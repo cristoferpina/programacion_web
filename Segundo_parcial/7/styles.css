@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Monserrat";
+    src: url(../7/Montserrat-Regular.ttf);
+}
+
+body {
+    background-color: #DEDEE7;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-family: "Monserrat";
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    position: relative;
+    left: 85px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #73808A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+input[type="search"] {
+    width: 350px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #F8F9FB;
+    border: 2px solid #E9EAEA;
+    border-radius: 8px;
+    outline: none;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+
+
+/* Estilo del texto placeholder */
+input[type="search"]::placeholder {
+    color: #888;
+    font-style: none;
+    transition: color 0.3s;
+}
+
+.sidebar {
+    width: 60px;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    font-size: 24px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.image_icon {
+    height: 20px;
+    position: static;
+    top: 50px;
+    bottom: 50px;
+}
+
+.opcion {
+    height: 20px;
+    position: absolute;
+}
+
+.tabla-container {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top:150px;
+    left: 150px;
+    width: 1000px;
+    height: 1500 px;
+}
+
+.tabla-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nuevo-usuario {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+thead {
+    background: #222;
+    color: white;
+}
+
+.eliminar {
+    background: #f8a5ae;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: #000;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.editar {
+    background: #5dff80;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}
