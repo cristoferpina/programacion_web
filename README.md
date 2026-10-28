@@ -4,7 +4,9 @@
 
 # Programación web
 
-Ejercicios y proyectos de desarrollo web organizados por parciales.
+**De las primeras etiquetas a interfaces con interacción.**
+
+Mi recorrido de aprendizaje web, organizado en tres parciales con ejercicios de HTML, formularios, multimedia y estilos.
 
 <img alt="HTML" src="https://img.shields.io/badge/HTML-0F172A?style=for-the-badge" />
 <img alt="CSS" src="https://img.shields.io/badge/CSS-1D4ED8?style=for-the-badge" />
@@ -15,6 +17,17 @@ Ejercicios y proyectos de desarrollo web organizados por parciales.
 [Código fuente](https://github.com/cristoferpina/programacion_web) &nbsp; / &nbsp; [Incidencias](https://github.com/cristoferpina/programacion_web/issues) &nbsp; / &nbsp; [Perfil](https://github.com/cristoferpina)
 
 </div>
+
+## Una mirada al proyecto
+
+| Qué encontrarás | Por qué explorarlo |
+| --- | --- |
+| De las primeras etiquetas a interfaces con interacción. | Mi recorrido de aprendizaje web, organizado en tres parciales con ejercicios de HTML, formularios, multimedia y estilos. |
+| Trabajo de desarrollo | Progresión en fundamentos web, formularios, layouts e interacción con JavaScript. |
+
+**[Explora las prácticas del tercer parcial →](Tercer_parcial/)**
+
+
 
 ---
 
