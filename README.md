@@ -1,4 +1,16 @@
-# Portafolio de Desarrollo Web
+<div align="center">
+
+# 🚀 Programación web
+
+Ejercicios y proyectos de desarrollo web organizados por parciales.
+
+**HTML · CSS · JavaScript**
+
+[Explorar código](https://github.com/cristoferpina/programacion_web) · [Reportar un problema](https://github.com/cristoferpina/programacion_web/issues)
+
+</div>
+
+---
 
 Repositorio de ejercicios y proyectos cortos de HTML, CSS y JavaScript organizados por parciales. Incluye desde bases (tablas, listas, imágenes) hasta temas modernos (Bootstrap, Grid, Flexbox, SASS y reproductores multimedia).
 
